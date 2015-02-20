@@ -6,7 +6,7 @@ $dados[] = 10;
 
 foreach ($dados as $key => $value) {
 	if(!is_numeric($value))
-		echo $value;
-	
+		echo $value; // imprimindo  valor
+
 }
 ?>
