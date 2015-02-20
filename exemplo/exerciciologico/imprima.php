@@ -1,7 +1,7 @@
 <?php
 $dados = array();
 $dados[] = "peido pesa?"; //caraca cara
-$dados[] = "nao";//tteteterwefwfdwf
+$dados[] = "nao";//heliodoidao
 $dados[] = 10; 
 
 foreach ($dados as $key => $value) {
