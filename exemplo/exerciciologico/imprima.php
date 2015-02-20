@@ -1,4 +1,6 @@
 <?php
+//E nois
+
 $dados = array();
 $dados[] = "peido pesa?"; //caraca cara
 $dados[] = "nao";//heliodoidao
