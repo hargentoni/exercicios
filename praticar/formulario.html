@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title> Formulario </title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css"/>
+    <script type="text/javascript" src="../jquery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+
+<style type="text/css">
+    body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+  }
+  .form-group{
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  </style>
+
+<form class="form-horizontal" action="inserirbd.php" method="POST">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="login" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" name="senha" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Entrar</button>
+    </div>
+  </div>
+</form>

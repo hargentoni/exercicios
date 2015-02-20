@@ -1,0 +1,74 @@
+
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Form_Login</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css"/>
+	<script type="text/javascript" src="../jquery/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../bootstrap/bootstrap.min.js"></script>
+<style type="text/css">
+	body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+</style>
+	</head>
+	<body>
+	<div class="container">
+
+		<form action="login.php" method="POST" class="form-signin">
+			<h2 class="form-signin-heading">Faça seu Acesso</h2>
+			<label for="inputEmail" class="sr-only">E-mail</label>
+			<input type="email" name="userLogin" id="inputEmail" class="form-control"placeholder="E-mail" required autofocus>
+			<label for="inputPassword" class="sr-only">Senha</label>
+			<input type="password" name="userPass" id="inputPassword" class="form-control" placeholder="Senha" required>
+			<div class="checkbox">
+			<label>
+			<input type="checkbox" value="remember-me"> Lembre-me
+			</label>
+			<a href="cadastrar.html">Cadastrar-se</a>	
+			</div>
+			<input type="submit" class="btn btn-default" value="teste"/''>
+		</form>
+		</div>
+		</body>
+		</html>
+	

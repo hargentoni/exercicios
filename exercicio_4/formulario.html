@@ -1,0 +1,51 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Form_Login</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css"/>
+	<script type="text/javascript" src="../jquery/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../bootstrap/bootstrap.min.js"></script>
+
+	
+
+	<style type="text/css">
+.form-group {
+  width: ;
+}
+	</style>
+	<body class="">
+
+	<form name="form1" action="cadastrarbanco.php" method="POST">
+	<div class="form-group">
+		<label name="heroi">nome do heroi: </label><br />
+		<input type="text" name="nome_heroi"><br />
+	</div>
+		<label name="heroi">nome do inimigo: </label><br />
+		<input type="text" name="nome_inimigo"><br />
+	<button type="submit" name="enviar" onclick="return validar()"> enviar </button>
+
+	</form>
+
+	</body>
+	
+
+<!-- Este bloco é para validar as informãções nos campos, caso qualquer um dos campos esteja vazio, será informado para o usuario Preencher-->
+	<script type="text/javascript">
+		function validar(){
+			var heroi = form1.nome_heroi.value;
+			var inimigo = form1.nome_inimigo.value;
+
+			if (heroi == "" || inimigo == "") {
+				alert("Preecha os campos do formulário");
+				form1.nome_heroi.focus();
+				form1.nome_inimigo.focus();
+
+				return false;
+			}
+
+		}		
+	</script>
+	
+	</html>
+
+

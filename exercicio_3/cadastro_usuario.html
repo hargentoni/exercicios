@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css"/>
+		<script type="text/javascript" src="../jquery/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/bootstrap.min.js"></script>
+		<meta charset="utf-8">
+		<title> Cadastro de Usuário </title>
+	</head>
+	<body>
+	<style type="text/css">
+		body {
+	  padding-top: 40px;
+	  padding-bottom: 40px;
+	  background-color: #eee;
+	}
+	.form-group{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.form-group > #nascimento {
+		width: 160px;
+	}
+	.form-group #numero{
+		width: 100px;
+	}
+	</style>
+	<!--Inicio da div de cadastramengto-->
+	<form action="cadastrar.php" method="POST">
+  		<div class="form-group">
+  			<label for="nome">Nome</label>
+  			<input type="text" class="form-control" name="usernome"id="nome" placeholder="Nome">
+  		</div>
+  		<div class="form-group">
+  			<label for="sobrenome">Sobrenome</label>
+  			<input type="text" class="form-control" name="usersobrenome"id="sobrenome" placeholder="Sobrenome">
+  		</div>
+		<div class="form-group">
+  			<label for="nascimento">Nascimento</label>
+  			<input type="date" class="form-control" name="usernascimento"id="nascimento" placeholder="Nascimento">
+  		</div>
+  		<div class="form-group">
+  			<label for="endereco">Endereço</label>
+  			<input type="text" class="form-control" name="userendereco"id="endereco" placeholder="Endereço">
+  		</div>
+  		<div class="form-group">
+ 			<label for="numero">N°</label>
+ 			<input type="number" class="form-control" name="usernumero"id="numero" placeholder="N°">
+ 		</div>
+ 		<div class="form-group">
+ 			<label for="bairro">Bairro</label>
+ 			<input type="text" class="form-control" name="userbairro"id="bairro" placeholder="Bairro°">
+ 		</div>
+ 		<div class="form-group">
+ 			<label for="complemento">Complemento</label>
+ 			<input type="text" class="form-control" name="usercomplemento"id="complemento" placeholder="Complemento">
+ 		</div>
+ 		<div class="form-group ">
+ 			<label for="cidade">Cidade</label>
+ 			<input type="text" class="form-control col-xs-2" name="usercidade"id="cidade" placeholder="Cidade°">
+ 		</div>
+  		<div class="form-group">
+  			<label for="email">Email</label>
+ 			<input type="email" class="form-control" name="usermail" id="useremail" placeholder="Email">
+ 		</div>
+ 		<div class="form-group">
+ 			<label for="exampleInputPassword1">Senha</label>
+ 			<input type="password" class="form-control" name="usersenha"id="senha" placeholder="Senha">
+ 			<button type="submit" class="btn btn-primary">Cadastrar</button>
+ 		</div>
+ 		
+	</form>
+		</div>
+	</body>
+</html>

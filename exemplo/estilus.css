@@ -1,0 +1,44 @@
+
+<!-- -->
+P{ <!-- Configuração de Paragrafo-->
+	font-family: Comic Sans MS; /* terá a fonte do tipo Times */
+	font-size: 12pt; /* tamanho da fonte 12 */
+	color: blue; /* cor da fonte azul */
+	margin-left: 0.5in; /* meia polega recuada a esqueda */
+}
+
+H1{
+	font-family:Comic Sans MS;
+	font-size:30pt;
+	color:blue;
+	text-align:center
+}
+
+A.meuslinks{ /* Elemento com classe */
+	font-family:Comic Sans MS;
+	text-decoration: none;
+	color:blue
+
+}
+DIV.sidebar{ /* Classe que vai atribuir configurações de formatação em tudo que estive na TAG DIV */
+	font-family: arial;
+	font-size: 12pt;
+	text-align: right;
+	background-color: gray;
+	margin-left: 1in;
+	margin-right: 1in
+}
+FONT.aprovado{
+	font-family: Times;
+	font-size: 10pt;
+	color: blue
+}
+FONT.reprovado{
+font-family: Times;
+	font-size: 10pt;
+	color: red	
+}
+FORM.formulario{
+	text-align: center;
+	
+}
